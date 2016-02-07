@@ -11,7 +11,7 @@ describe('<PrimaryTextInput/>', () => {
     const handleChange = sinon.spy();
     const wrapper = shallow(<PrimaryTextInput onChange={handleChange} placeholder={'Name'}>);
 
-    wrapper.find('input').simulate('keydown', { which: 'a' });
+    wrapper.find('input').simulate('keydown', { 'which': 'a' });
 
     expect(handleChange.calledOnce).to.equal(true);
   });
