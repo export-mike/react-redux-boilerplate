@@ -1,0 +1,50 @@
+syntax: glob
+
+node_modules
+logs
+*.log
+
+release-signing.properties
+
+
+# Rest of file based on: https://raw.githubusercontent.com/crilleengvall/gitignore/master/Phonegap.gitignore
+
+# Android / Eclipse
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+Android/bin/
+Android/gen/
+Android/assets/
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IOS / Xcode
+
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+IOS/www/
+.DS_Store
+README.md.html

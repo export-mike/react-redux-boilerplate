@@ -1,0 +1,15 @@
+.container {
+  padding: 10px;
+  width: 100%;
+}
+
+.container h1 {
+  color: $dainTree;
+  font-weight: bold;
+  text-align: left;
+}
+
+.search-wrapper {
+  width: 80%;
+  margin: 30px auto;
+}

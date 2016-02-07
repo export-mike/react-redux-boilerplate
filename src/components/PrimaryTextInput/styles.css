@@ -1,0 +1,13 @@
+.input {
+  color: $dainTree;
+  background: $mercury;
+  padding: 18px 20px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  margin: 10px auto;
+  width: 75%;
+  &:placeholder {
+    color: $dainTree;
+  }
+}

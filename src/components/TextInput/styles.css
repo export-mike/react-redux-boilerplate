@@ -1,0 +1,9 @@
+.input {
+  color: $white;
+  padding: 18px 20px;
+  border-radius: 8px;
+  border: none;
+  &:placeholder {
+    color: $white;
+  }
+}

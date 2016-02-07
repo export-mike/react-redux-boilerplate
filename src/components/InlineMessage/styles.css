@@ -1,0 +1,19 @@
+.error, .success {
+  font-size: 10pt;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 4px;
+}
+
+.error span, .success span {
+  width: 100%;
+}
+
+.error {
+  color: $rosso;
+}
+
+.success {
+  color: $wasabi;
+}

@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 360px;
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.actions button {
+  float: right;
+}
+
+.actions a {
+  float: left;
+}

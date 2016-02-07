@@ -1,0 +1,23 @@
+.button {
+  text-transform: capitalize;
+  color: $white;
+  background: $dainTree;
+  padding: 8px 15px;
+  font-size: 10pt;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  composes: grow from '../Button/styles.css';
+}
+
+.button span {
+  padding: 5px;
+}
+
+.button img {
+  padding-top: 5px;
+}
+
+.icon, .button span {
+  float: left;
+}

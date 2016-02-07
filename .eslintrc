@@ -1,0 +1,11 @@
+/**
+ * 0 = disabled, 1 = warn, 2 = error
+ * For info on specific rules, see: http://eslint.org/docs/rules/
+ */
+{
+  "extends": "pebblecode",
+  "rules": {
+    "no-use-before-define": 0,
+    "new-cap": 0 //We don't like this rule, Immutable and React in general has caps
+  }
+}

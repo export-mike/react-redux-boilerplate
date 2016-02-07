@@ -1,0 +1,23 @@
+.link, .default{
+  font-size: 9pt;
+  cursor: pointer;
+  margin: {top: 10px; bottom: 10px}
+  cursor: pointer;
+}
+
+.default{
+  color: $dainTree;
+}
+
+.white {
+  color: $white;
+}
+
+.default:link, .white:link {
+  text-decoration: none;
+}
+
+.default:hover, .white:hover {
+  text-decoration: underline;
+}
+
