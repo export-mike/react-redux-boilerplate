@@ -55,10 +55,8 @@ const config = {
   postcss: () => {
     return [
       require('precss'),
-      require('postcss-simple-vars')({
-        variables: () => {
-          return require('./src/colors');
-        }
+      require('postcss-advanced-variables')({
+        variables: require('./src/colors')
       }),
       require('autoprefixer')({ browsers: ['last 2 versions'] })
     ];

@@ -19,7 +19,7 @@ test mocha only:
 test karma only: 
 ``` npm run karma:watch ```
 
-for CI omit :watch on your npm run command.
+for CI use ```npm test ```
 
 Build:
 ``` npm run build ```
