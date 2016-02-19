@@ -1,5 +1,7 @@
 # React Redux Boilerplate
 ![Build Status](https://travis-ci.org/export-mike/react-redux-boilerplate.svg)
+![I Care](https://icarebadge.com/ICARE-black.png)
+
 A react, redux, webpack, css modules, postcss, karma and mocha boilerplate. Complete with super simple authentication flow, tests on reducers and components. Related to [blogpost](http://pebblecode.com/blog/react-redux-unit-testing/). Complete with redux dev tools. ctrl-h and ctrl-q shortcuts :)
 
 ##Installation
