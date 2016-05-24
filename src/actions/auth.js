@@ -1,7 +1,5 @@
 import { routeActions } from 'react-router-redux';
-
 import * as Api from '../utils/ApiClient';
-
 export const AUTH = 'AUTH';
 export const AUTH_SUCCESS = 'AUTH_SUCCESS';
 export const AUTH_FAIL = 'AUTH_FAIL';
@@ -85,7 +83,6 @@ export const loginCheckToken = () => {
     dispatch(loggedIn({token}));
   };
 };
-
 
 export const forgotPassword = ({username}) => {
   return (dispatch) => {

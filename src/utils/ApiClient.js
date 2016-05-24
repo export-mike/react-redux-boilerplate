@@ -1,5 +1,5 @@
 
-export const login = (username, password) => {
+export const login = (username, password) => { // eslint-disable-line
 
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -8,7 +8,7 @@ export const login = (username, password) => {
   });
 };
 
-export const forgotPassword = (username) => {
+export const forgotPassword = (username) => { // eslint-disable-line
 
   return new Promise((resolve) => {
     setTimeout(() => {

@@ -9,9 +9,9 @@ import PrimaryTextInput from '../';
 describe('<PrimaryTextInput/>', () => {
   it('Should handleChange', () =>{
     const handleChange = sinon.spy();
-    const wrapper = shallow(<PrimaryTextInput onChange={handleChange} placeholder={'Name'}>);
+    const wrapper = shallow(<PrimaryTextInput onChange={handleChange} placeholder={'Name'}/>);
 
-    wrapper.find('input').simulate('keydown', { 'which': 'a' });
+    wrapper.find('input').simulate('change', {target: {value: 'My new value'}});
 
     expect(handleChange.calledOnce).to.equal(true);
   });
